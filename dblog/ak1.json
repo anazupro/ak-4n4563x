@@ -1,3 +1,19 @@
-[
-  
-]
+{
+    "blogs": [
+        {
+            "title": "Mengenal Dunia Pemrograman",
+            "description": "Artikel ini membahas dasar-dasar pemrograman untuk pemula.",
+            "link": "blogs/mengenal-dunia-pemrograman.html"
+        },
+        {
+            "title": "Tips Efektif Belajar Koding",
+            "description": "Beberapa tips untuk mempercepat proses belajar coding.",
+            "link": "blogs/tips-belajar-koding.html"
+        },
+        {
+            "title": "Pengalaman Membuat Game Horror",
+            "description": "Cerita dan tantangan dalam mengembangkan game horror sendiri.",
+            "link": "blogs/membuat-game-horror.html"
+        }
+    ]
+}
