@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>My Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Page -->
+    <div class="main-page">
+        <header class="header">
+            <div class="logo">
+                <img src="logo.png" alt="Logo" width="30">
+                <span>My Code Editor</span>
+            </div>
+            <div class="settings">
+                <img src="settings.png" alt="Settings" width="25" id="settings-icon">
+            </div>
+        </header>
+        <div class="buttons">
+            <button id="clone-project">Clone Proyek</button>
+            <button id="create-project">Create Proyek</button>
+        </div>
+        <div class="bottom-drawer" id="create-drawer">
+            <h3>Buat Proyek Baru</h3>
+            <button onclick="createProject('blank')">Proyek Kosong</button>
+            <button onclick="createProject('template')">Proyek dengan Template</button>
+            <button onclick="closeDrawer()">Tutup</button>
+        </div>
+    </div>
+
+    <!-- Editor Page -->
+    <div class="editor-page" id="editor-page" style="display: none;">
+        <div class="sidebar">
+            <div class="sidebar-icon">📁</div>
+            <ul id="file-list"></ul>
+            <button id="create-file">+ File Baru</button>
+        </div>
+        <div class="editor-container">
+            <div class="tabs" id="tab-list"></div>
+            <div id="editor" contenteditable="true" spellcheck="false"></div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="highlights/html.js"></script>
+    <script src="highlights/css.js"></script>
+    <script src="highlights/javascript.js"></script>
+    <script src="highlights/php.js"></script>
+    <script src="highlights/java.js"></script>
+    <script src="highlights/go.js"></script>
+    <script src="highlights/ruby.js"></script>
+</body>
+</html>

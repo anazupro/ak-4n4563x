@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Template Photo Strip blue jeans",
+        "price": 6000,
+        "old_price": 10000,
+        "image": "assets/photo_strip.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Infografis Wortel",
+        "price": 25000,
+        "old_price": 30000,
+        "image": "assets/infografis_wortel.jpg"
+    }
+]

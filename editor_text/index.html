@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Blog Editor - AnasBex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JSON Blog Editor alpha1</h1>
+    </header>
+    <main>
+        <section class="editor">
+            <h2>Input Blog Content</h2>
+            <form id="blog-form">
+                <label for="thumbnail">URL Thumbnail:</label>
+                <input type="text" id="thumbnail" placeholder="https://example.com/image.jpg">
+
+                <label for="title">Judul:</label>
+                <input type="text" id="title" placeholder="Judul blog Anda">
+
+                <label for="description">Deskripsi:</label>
+                <textarea id="description" rows="3" placeholder="Deskripsi singkat blog..."></textarea>
+
+                <label>Tanggal Dibuat:</label>
+                <div class="date-input">
+                    <input type="number" id="year" min="1900" max="9999" placeholder="YYYY">
+                    <input type="number" id="month" min="1" max="12" placeholder="MM">
+                    <input type="number" id="day" min="1" max="31" placeholder="DD">
+                </div>
+
+                <label for="text-content">Text Content:</label>
+                <textarea id="text-content" rows="6" placeholder="Tulis konten lengkap di sini..."></textarea>
+
+                <div class="button-group">
+                    <button type="button" id="convert-btn">Convert to JSON</button>
+                    <button type="button" id="reset-btn">Reset Form</button>
+                </div>
+            </form>
+
+            <h2>JSON Output</h2>
+            <textarea id="output-text" rows="10" readonly placeholder="Hasil JSON akan muncul di sini..."></textarea>
+            <button id="copy-btn">Copy Text</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 AnasBex. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Ambil elemen form
+        const thumbnail = document.getElementById('thumbnail');
+        const title = document.getElementById('title');
+        const description = document.getElementById('description');
+        const year = document.getElementById('year');
+        const month = document.getElementById('month');
+        const day = document.getElementById('day');
+        const textContent = document.getElementById('text-content');
+        const outputText = document.getElementById('output-text');
+        const convertBtn = document.getElementById('convert-btn');
+        const resetBtn = document.getElementById('reset-btn');
+        const copyBtn = document.getElementById('copy-btn');
+
+        // Fungsi untuk isi form dari localStorage atau default ke tanggal saat ini
+        function loadFormData() {
+            const savedData = JSON.parse(localStorage.getItem('blogFormData'));
+            if (savedData) {
+                thumbnail.value = savedData.thumbnail || '';
+                title.value = savedData.title || '';
+                description.value = savedData.description || '';
+                year.value = savedData.year || '';
+                month.value = savedData.month || '';
+                day.value = savedData.day || '';
+                textContent.value = savedData.textContent || '';
+            } else {
+                // Default ke tanggal saat ini jika tidak ada data
+                const today = new Date();
+                year.value = today.getFullYear();
+                month.value = String(today.getMonth() + 1).padStart(2, '0');
+                day.value = String(today.getDate()).padStart(2, '0');
+                thumbnail.value = '';
+                title.value = '';
+                description.value = '';
+                textContent.value = '';
+            }
+        }
+
+        // Fungsi untuk simpan data ke localStorage
+        function saveFormData() {
+            const formData = {
+                thumbnail: thumbnail.value,
+                title: title.value,
+                description: description.value,
+                year: year.value,
+                month: month.value,
+                day: day.value,
+                textContent: textContent.value
+            };
+            localStorage.setItem('blogFormData', JSON.stringify(formData));
+        }
+
+        // Load data saat halaman dibuka
+        loadFormData();
+
+        // Fungsi konversi ke JSON
+        convertBtn.addEventListener('click', () => {
+            const yearInput = year.value;
+            const monthInput = month.value.padStart(2, '0');
+            const dayInput = day.value.padStart(2, '0');
+
+            // Buat object blog
+            const blogData = {
+                blogs: [{
+                    cover_image: thumbnail.value,
+                    title: title.value,
+                    description: description.value,
+                    date: `${yearInput}-${monthInput}-${dayInput}`,
+                    text_content: textContent.value
+                }]
+            };
+
+            // Konversi ke JSON string dengan indentasi
+            const jsonString = JSON.stringify(blogData, null, 4);
+            outputText.value = jsonString;
+
+            // Simpan data form setelah konversi
+            saveFormData();
+        });
+
+        // Fungsi reset form
+        resetBtn.addEventListener('click', () => {
+            localStorage.removeItem('blogFormData'); // Hapus riwayat
+            loadFormData(); // Reset form ke default (tanggal hari ini)
+            outputText.value = ''; // Kosongkan output
+        });
+
+        // Fungsi copy ke clipboard
+        copyBtn.addEventListener('click', () => {
+            outputText.select();
+            document.execCommand('copy');
+            alert('JSON berhasil disalin ke clipboard!');
+        });
+    </script>
+</body>
+</html>

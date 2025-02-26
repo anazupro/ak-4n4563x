@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+/* Main Page */
+.main-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #252526;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.settings img {
+  cursor: pointer;
+  filter: invert(1);
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f99;
+}
+
+/* Bottom Drawer */
+.bottom-drawer {
+  position: fixed;
+  bottom: -300px;
+  width: 100%;
+  background: #252526;
+  padding: 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  transition: bottom 0.3s ease;
+}
+
+.bottom-drawer.active {
+  bottom: 0;
+}
+
+/* Editor Page */
+.editor-page {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #333;
+  padding: 10px;
+  border-right: 1px solid #3c3c3c;
+}
+
+.sidebar-icon {
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#file-list {
+  list-style: none;
+  padding: 0;
+}
+
+#file-list li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#file-list li:hover {
+  background: #404040;
+}
+
+.editor-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  background: #252526;
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.tab {
+  padding: 5px 15px;
+  background: #3c3c3c;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #1e1e1e;
+}
+
+#editor {
+  flex-grow: 1;
+  background: #1e1e1e;
+  padding: 10px;
+  font-family: 'Consolas', 'Courier New', monospace;
+  font-size: 14px;
+  outline: none;
+  overflow: auto;
+}
