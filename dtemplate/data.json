@@ -1,16 +1,26 @@
 [
     {
         "id": 1,
-        "name": "Template Photo Strip blue jeans",
-        "price": 6000,
-        "old_price": 10000,
-        "image": "assets/photo_strip.jpg"
+        "name": "Kaos Anime Premium",
+        "image": "assets/kaos-anime.jpg",
+        "price": 120000,
+        "old_price": 150000,
+        "description": "Kaos anime premium dengan bahan cotton combed 30s, nyaman dipakai dan desain eksklusif."
     },
     {
         "id": 2,
-        "name": "Infografis Wortel",
+        "name": "Poster Anime A3",
+        "image": "assets/poster-anime.jpg",
+        "price": 50000,
+        "old_price": 70000,
+        "description": "Poster anime ukuran A3 dengan bahan art paper 260gsm, cetakan tajam dan tahan lama."
+    },
+    {
+        "id": 3,
+        "name": "Stiker Anime Waterproof",
+        "image": "assets/stiker-anime.jpg",
         "price": 25000,
-        "old_price": 30000,
-        "image": "assets/infografis_wortel.jpg"
+        "old_price": 35000,
+        "description": "Set stiker anime tahan air dengan berbagai karakter favorit, cocok untuk laptop, motor, dan lainnya."
     }
 ]
