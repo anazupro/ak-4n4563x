@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "name": "Kaos Anime Premium",
+        "name": "Template CV Modern KenzoV1",
         "image": "assets/kaos-anime.jpg",
-        "price": 120000,
-        "old_price": 150000,
-        "description": "Kaos anime premium dengan bahan cotton combed 30s, nyaman dipakai dan desain eksklusif."
+        "price": 25000,
+        "old_price": 30000,
+        "description": "Template CV Modern buat kamu yang lagi butuh, dapat 3 Varian Model CV!"
     },
     {
         "id": 2,
