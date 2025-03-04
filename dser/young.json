@@ -1,0 +1,7 @@
+{
+      "logos": [
+        { "image": "logo1.png", "title": "26 TextColor" },
+        { "image": "logo2.png", "title": "26 TextWhite" },
+        { "image": "logo3.png", "title": "26 TextBlack" }
+    ]
+}
