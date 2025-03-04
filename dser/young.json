@@ -1,7 +1,7 @@
 {
       "logos": [
-        { "image": "logo1.png", "title": "26 TextColor" },
-        { "image": "logo2.png", "title": "26 TextWhite" },
-        { "image": "logo3.png", "title": "26 TextBlack" }
+        { "image": "https://ik.imagekit.io/hi2l3plti/logo26_utama.png?updatedAt=1741120257816", "title": "26 TextColor" },
+        { "image": "https://ik.imagekit.io/hi2l3plti/logo26_textwhite.png?updatedAt=1741120256974", "title": "26 TextWhite" },
+        { "image": "https://ik.imagekit.io/hi2l3plti/logo26_textblack.png?updatedAt=1741120257767", "title": "26 TextBlack" }
     ]
 }
