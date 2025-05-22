@@ -1,0 +1,20 @@
+[
+  {
+    "title" : "Jumbo 2025",
+    "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU4MnzS913m-Q_lp07MwRM3DEuqpW_AD8mDm8hkYOfNLQaTemSzGytCRI&s=10",
+    "type" : "MOVIE",
+    "genre" : "Adventure, Slice of Life, Animation",
+    "score" : "7.4",
+    "release" : "2025",
+    "link" : ""
+  },
+  {
+    "title" : "Eiga Doraemon: Nobita no Esekai Monogatari",
+    "poster" : "https://m.media-amazon.com/images/M/MV5BMzAwOWIyYTYtODFmZi00OTAzLWJhYzQtMjZlOTY2NzFkZThjXkEyXkFqcGc@._V1_QL75_UX174_.jpg",
+    "type" : "MOVIE",
+    "genre" : "Isekai, Adventure, Action",
+    "score" : "6.78",
+    "release" : "2025",
+    "link" : ""
+  }
+]
