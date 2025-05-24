@@ -1,12 +1,30 @@
 [
   {
+    "title" : "Suzume",
+    "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF-FZ788dFDXyfgP5GXwp65BRtdF9iRH6l8LzBP9FC5Cx38EonzZonKeFT&s=10",
+    "type" : "MOVIE",
+    "genre" : "Adventure, Drama",
+    "score" : "8.11",
+    "release" : "2022",
+    "link" : ""
+  },
+  {
+    "title" : "Upin & Ipin : Keris Siamang Tunggal",
+    "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON4gkJApTIitBajFn05j9r9zQSug2Y-lbBOf1MvB4vOgVfXpWVJ3vHDLg&s=10",
+    "type" : "MOVIE",
+    "genre" : "Adventure, Isekai, Animation",
+    "score" : "7.82",
+    "release" : "2019",
+    "link" : ""
+  },
+  {
     "title" : "Jumbo 2025",
     "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU4MnzS913m-Q_lp07MwRM3DEuqpW_AD8mDm8hkYOfNLQaTemSzGytCRI&s=10",
     "type" : "MOVIE",
     "genre" : "Adventure, Slice of Life, Animation",
     "score" : "7.4",
     "release" : "2025",
-    "link" : ""
+    "link" : "none"
   },
   {
     "title" : "Eiga Doraemon: Nobita no Esekai Monogatari",
@@ -15,6 +33,6 @@
     "genre" : "Isekai, Adventure, Action",
     "score" : "6.78",
     "release" : "2025",
-    "link" : ""
+    "link" : "none"
   }
 ]
