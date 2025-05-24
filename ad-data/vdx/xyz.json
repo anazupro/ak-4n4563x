@@ -1,5 +1,23 @@
 [
   {
+    "title" : "Kimi no Na wa",
+    "poster" : "https://upload.wikimedia.org/wikipedia/id/0/0b/Your_Name_poster.png",
+    "type" : "MOVIE",
+    "genre" : "Drama, Romance, Supernatural",
+    "score" : "8.41",
+    "release" : "2016",
+    "link" : ""
+  },
+  {
+    "title" : "Resident Playbook",
+    "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCz5dGHZdX_QI4pDcqQ-Zxcm6O-pG0cCd_Co1mrjUdV27AKPzWS9viv7tg&s=10",
+    "type" : "MOVIE",
+    "genre" : "Drama, Medical",
+    "score" : "8.6",
+    "release" : "2025",
+    "link" : ""
+  },
+  {
     "title" : "When Life Gives You Tangerines",
     "poster" : "https://upload.wikimedia.org/wikipedia/id/e/e8/When_Life_Gives_You_Tangerines_poster.png",
     "type" : "MOVIE",
