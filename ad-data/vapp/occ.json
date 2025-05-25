@@ -3,5 +3,5 @@
   "server" : "true",
   "versi" : "1.1",
   "dev" : "AnasBex",
-  "upgrade" : "false"
+  "upgrade" : "https://anasbex.vercel.app/"
 }
