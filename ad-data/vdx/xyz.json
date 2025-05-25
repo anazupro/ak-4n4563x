@@ -1,5 +1,23 @@
 [
   {
+    "title" : "Double Patty",
+    "poster" : "https://midori.doramaindo.ai/wp-content/uploads/2021/04/Double-Patty-1.jpg",
+    "type" : "MOVIE",
+    "genre" : "Life, Drama, Youth",
+    "score" : "7.21",
+    "release" : "2021",
+    "link" : ""
+  },
+  {
+    "title" : "The Deep Web Murdershow",
+    "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAcqaZP1X1fBzHQqt6BTis4wQMA1C--dRk1f3ogcgHB0Hv73VF24VyRM&s=10",
+    "type" : "MOVIE",
+    "genre" : "Thriller, Horror",
+    "score" : "6.1",
+    "release" : "2023",
+    "link" : "https://7npihg0ee2yuu.premilkyway.com/v/01/10178/nz6k2pco81du_n/The.Deep.Web.Murdershow.2024.WEB-DL.HARDSUB-INDO-[drakor.in].mp4?t=aUckoO1XhCrLx78LdHnX5XagpDNFhRKC8a_zoRFhqAc&s=1748195166&e=129600&f=50892688&sp=400&i=0.3"
+  },
+  {
     "title" : "Qodrat 2",
     "poster" : "https://upload.wikimedia.org/wikipedia/id/5/5c/Poster_Qodrat_2.jpg",
     "type" : "MOVIE",
