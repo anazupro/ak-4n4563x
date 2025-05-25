@@ -1,12 +1,30 @@
 [
   {
+    "title" : "Qodrat 2",
+    "poster" : "https://upload.wikimedia.org/wikipedia/id/5/5c/Poster_Qodrat_2.jpg",
+    "type" : "MOVIE",
+    "genre" : "Drama, Supernatural, Horror",
+    "score" : "7.1",
+    "release" : "2025",
+    "link" : ""
+  },
+  {
+    "title" : "Qodrat",
+    "poster" : "https://upload.wikimedia.org/wikipedia/id/d/d9/Qodrat.jpeg",
+    "type" : "MOVIE",
+    "genre" : "Drama, Supernatural, Horror",
+    "score" : "6.7",
+    "release" : "2022",
+    "link" : ""
+  },
+  {
     "title" : "Komang 2025",
     "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD1vwSHD3Sh1Zz2mHXUfFp4lJ0BwPlEgHv3YynveV41yRBxpTfOUUeIb34&s=10",
     "type" : "MOVIE",
     "genre" : "Coming of Age, Drama, Romance, Biography",
     "score" : "7.9",
     "release" : "2025",
-    "link" : "https://mystorageindo.com/[Kusonime]%20Kimi%20No%20Na%20Wa%20Bd%20[720P-Aac][D8a6d9ce].mp4"
+    "link" : ""
   },
   {
     "title" : "Kimi no Na wa",
