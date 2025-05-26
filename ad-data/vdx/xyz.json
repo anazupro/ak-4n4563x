@@ -1,5 +1,14 @@
 [
-  {
+{
+  "title": "Following",
+  "poster": "https://image.tmdb.org/t/p/w300/1TSnW71f1J63XgtZIHojLcclm7c.jpg",
+  "type": "MOVIE",
+  "genre": "Thriller, Mystery",
+  "score": "6.54",
+  "release": "2024",
+  "link": "https://f2o8.uyeshare.cc/1fichier/rd1j3lc9zei3tu4veaunqrtp1115swzcaqzp9"
+},
+{
   "title": "Hear Me: Our Summer",
   "poster": "https://cdn.drakor.in/gambar/Fvr8tFoC.jpg?resize=300,550",
   "type": "MOVIE",
@@ -17,7 +26,7 @@
   "release": "2024",
   "link": "https://f2o8.uyeshare.cc/1fichier/pxk1r1hpg69pixdg8yl7jltbpp1z29pyqooimx"
 },
-  {
+{
     "title" : "Kajiman: Iblis Terkejam Penagih Janji",
     "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShAstnoOYcjLlkkehA-mtZssA_n-i_xXwBcAKAAEu75pUkbRGS3YR-yyE&s=10",
     "type" : "MOVIE",
