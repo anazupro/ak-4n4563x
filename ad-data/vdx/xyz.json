@@ -1,8 +1,44 @@
 [
 {
+  "title": "Jab Harry Met Sejal",
+  "poster": "https://cdn.drakor.in/gambar/vC5v7CL9.jpg?resize=300,550",
+  "type": "MOVIE",
+  "genre": "Comedy, Romance, Drama",
+  "score": "7.68",
+  "release": "2017",
+  "link": "https://f2o8.uyeshare.cc/1fichier/yvxp6yasgm8q244g8mildkqki077eb6jbfv2ph"
+},
+{
+  "title": "My Girlfriend is a Serial Killer",
+  "poster": "https://cdn.drakor.in/gambar/eb1iwDJA.jpg?resize=300,550",
+  "type": "MOVIE JP",
+  "genre": "Crime, Romance, Horror",
+  "score": "6.9",
+  "release": "2019",
+  "link": "https://f1cdn33.uyeshare.cc/1fichier/epjs3tbt52a98slla7mhfmhdtw53wqhfn0xvx"
+},
+{
+  "title": "Homestay",
+  "poster": "https://cdn.drakor.in/gambar/Wha8JcRL.jpg?resize=300,550",
+  "type": "MOVIE JP",
+  "genre": "Drama, Fantasy, Mystery",
+  "score": "7.54",
+  "release": "2022",
+  "link": "https://f2o8.uyeshare.cc/1fichier/iqq0wg003ab3fsfzc97kj90o26n5ml517whtya"
+},
+{
+  "title": "Love Life",
+  "poster": "https://cdn.drakor.in/gambar/zPYYR4LE.jpg?resize=300,550",
+  "type": "MOVIE JP",
+  "genre": "Romance, Drama",
+  "score": "8.54",
+  "release": "2022",
+  "link": "https://f2o8.uyeshare.cc/1fichier/4imkwgstv2ccy51pp9idmg3ig6foxv3pmocslr"
+},
+{
   "title": "Following",
   "poster": "https://image.tmdb.org/t/p/w300/1TSnW71f1J63XgtZIHojLcclm7c.jpg",
-  "type": "MOVIE",
+  "type": "MOVIE KR",
   "genre": "Thriller, Mystery",
   "score": "6.54",
   "release": "2024",
@@ -11,7 +47,7 @@
 {
   "title": "Hear Me: Our Summer",
   "poster": "https://cdn.drakor.in/gambar/Fvr8tFoC.jpg?resize=300,550",
-  "type": "MOVIE",
+  "type": "MOVIE KR",
   "genre": "Romance, Drama, Life",
   "score": "7.82",
   "release": "2024",
@@ -20,7 +56,7 @@
 {
   "title": "Pilot 2024",
   "poster": "https://upload.wikimedia.org/wikipedia/id/4/4b/Pilot_%28movie%29.jpg",
-  "type": "MOVIE",
+  "type": "MOVIE KR",
   "genre": "Comedy",
   "score": "6.7",
   "release": "2024",
@@ -29,7 +65,7 @@
 {
     "title" : "Kajiman: Iblis Terkejam Penagih Janji",
     "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShAstnoOYcjLlkkehA-mtZssA_n-i_xXwBcAKAAEu75pUkbRGS3YR-yyE&s=10",
-    "type" : "MOVIE",
+    "type" : "MOVIE ID",
     "genre" : "Horror, Thriller",
     "score" : "5.1",
     "release" : "2023",
@@ -47,7 +83,7 @@
   {
     "title" : "Primbon",
     "poster" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc4T1WYxY4SENntzBzN7nEfjOqSHu0mfT3gEQ5OyslwmW8no-3pO57L8x2&s=10",
-    "type" : "MOVIE",
+    "type" : "MOVIE ID",
     "genre" : "Horror, Drama",
     "score" : "6.7",
     "release" : "2023",
