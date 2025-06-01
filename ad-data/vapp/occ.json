@@ -1,7 +1,7 @@
 {
   "app" : "ADMovie",
   "server" : "true",
-  "versi" : "1.0",
+  "versi" : "1.1",
   "dev" : "AnasBex",
   "upgrade" : "https://anasbex.vercel.app/"
 }
